@@ -5,7 +5,9 @@ import requests
 
 
 def main():
-    # Query token owners at the certain block height and write result to 'snapshot.csv'
+    '''
+    Query token owners at the certain block height and write result to 'snapshot.csv'
+    '''
     snapshot_block_height = "8361668"
     base_uri = "https://columbus-lcd.terra.dev/wasm/contracts/"
     artsyapes_contract = "terra1vdwz6zlrk6ptsxu97dk43uup9frchuwse8s6d8"
