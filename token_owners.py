@@ -9,7 +9,7 @@ def main():
     """
     Query token owners at the certain block height and write result to 'snapshot.csv'
     """
-    snapshot_block_height = "8000000"
+    snapshot_block_height = "8846858"
     base_uri = "https://columbus-lcd.terra.dev/wasm/contracts/"
     artsyapes_contract = "terra1vdwz6zlrk6ptsxu97dk43uup9frchuwse8s6d8"
     num_of_tokens = 3777
@@ -31,7 +31,6 @@ def main():
             sys.stdout.write("\r")
             sys.stdout.write(f"{i}/{num_of_tokens}")
             sys.stdout.flush()
-
 
 
 if __name__ == '__main__':
